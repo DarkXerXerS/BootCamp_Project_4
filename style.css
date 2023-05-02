@@ -144,9 +144,13 @@ body {
 
   .article-container1{
     margin: 30px;
-    /* padding-top: 40px; */
+    /* padding-top: 80px; */
 
 
+}
+
+.article-container {
+    padding-top: 118px;
 }
 
 .section-container-3 article p {
