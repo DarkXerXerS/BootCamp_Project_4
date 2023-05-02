@@ -134,6 +134,19 @@ body {
 
 
 .section-container-3 {
+    border: 2px solid red;
+    /* margin: 40px; */
+}
+
+/* .section-container-3 span {
+
+} */
+
+  .article-container1{
+    margin: 30px;
+    /* padding-top: 40px; */
+
+
 }
 
 .section-container-3 article p {
