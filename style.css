@@ -9,7 +9,7 @@
 body {
   width: 100%;
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -92,7 +92,8 @@ body {
 
 .section-container-2  {
     border: 2px solid red;
-    padding-top: 50px;
+    padding-top: 40px;
+    /* width: 200px; */
 
 }
 
@@ -107,6 +108,22 @@ body {
     width: 32px;
     height: 32px;
 } */
+
+.section-container-2 h1 {
+    font-size: 40px;
+     line-height: 38px;
+     padding-top: 15px;
+}
+
+.section-container-2 img[src] {
+    width: 400px;
+    padding-top: 30px;
+    height: 200px;
+}
+
+.section-container-2 ul {
+    
+}
 
 
 .section-container-3 {
