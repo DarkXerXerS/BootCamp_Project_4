@@ -20,6 +20,11 @@ body {
   color: #fff;
 }
 
+.material-symbols-outlined:hover {
+    background-color: #fff;
+    color: black;
+}
+
 .header_container {
   display: flex;
   justify-content: space-around;
