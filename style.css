@@ -66,10 +66,24 @@ body {
 
 .main-container {
     display: flex;
+    justify-content: space-around;
 }
 
 .section-container-1 {
+}
 
+.section-container-1 ul {
+    list-style: none;
+    display: flex;
+    padding: 78px 0px;
+    flex-direction: column;
+    gap: 45px;
+    opacity: 0.7;
+}
+
+.section-container-1 ul:hover {
+    cursor: pointer;
+    opacity: 1;
 }
 
 .section-container-2  {
@@ -77,6 +91,10 @@ body {
 }
 
 .section-container-3 {
+}
+
+.section-container-3 article p {
+    font-size: 9px;
 }
 
 
