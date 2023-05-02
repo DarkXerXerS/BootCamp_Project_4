@@ -3,11 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 
 .container {
     display: flex;
+    justify-content: space-around;
+    border: 2px solid red ;
 }
 
-.nav-container-1 ul li {
+.nav-container-1 ul  {
+display: flex;
+}
+
+.nav-container-3 {
     display: flex;
 }
+
+.nav-container-3 ul {
+    display: flex;
+}
+
