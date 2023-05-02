@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid grey;
-  padding: 50px 0px;
+  padding: 30px 0px;
 }
 
 .nav-container-1 ul {
@@ -91,9 +91,10 @@ body {
 }
 
 .section-container-2  {
-    border: 2px solid red;
+    /* border-right: 1px solid grey; */
     padding-top: 40px;
     /* width: 200px; */
+    /* margin-right: 20px; */
 
 }
 
@@ -122,7 +123,12 @@ body {
 }
 
 .section-container-2 ul {
-    
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 700;
 }
 
 
