@@ -234,7 +234,10 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
- 
+  
+  * {
+    overflow: hidden;
+  }
 
   .header_container {
     display: flex;
@@ -250,14 +253,9 @@ body {
   z-index: -1;
 }
 
-/* .menu-ion {
-z-index: -1;
-} */
+
 
 .nav-container-1 ul {
-   /* display: flex; */
-  /* flex-direction: column; */
-  /* width: 100%; */
   background: linear-gradient(#ff5492, #ff577559);
   /* background-color: blue; */
   /* color: #000; */
