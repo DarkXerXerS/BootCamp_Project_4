@@ -53,6 +53,10 @@ body {
   display: none;
 }
 
+ #closeIcon {
+  display: none;
+}
+
 .nav-container-2 h2 {
   text-transform: uppercase;
   letter-spacing: 8px;
