@@ -248,10 +248,21 @@ body {
 .nav-container-1 ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  /* padding: 20px; */
+  width: 100%;
+  background: linear-gradient(#ff5492, #ff577559);
+  gap: 30px;
   border: 2px solid red;
-  /* width: 200px; */
+  position: absolute;
+  bottom: 500px;
+  left: 0px;
+  z-index: 2;
+  /* top: -75px; */
+  /* padding: 30px; */
+  /* padding-left: 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center; */
 }
 
 
