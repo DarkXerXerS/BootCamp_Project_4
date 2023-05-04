@@ -36,6 +36,7 @@ body {
   display: none;
 } */
 
+
 .nav-container-1 ul {
   display: flex;
   list-style: none;
@@ -46,6 +47,10 @@ body {
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.nav-container-1 .menu-ion {
+  display: none;
 }
 
 .nav-container-2 h2 {
@@ -253,7 +258,7 @@ body {
   gap: 30px;
   border: 2px solid red;
   position: absolute;
-  bottom: 500px;
+  bottom: 459px;
   left: 0px;
   z-index: 2;
   /* top: -75px; */
@@ -263,6 +268,16 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   text-align: center; */
+}
+
+.nav-container-1 .menu-ion {
+  display: block;
+}
+
+.nav-container-1 ul li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
