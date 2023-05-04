@@ -15,10 +15,10 @@
   <body>
     <header class="header_container">
       <nav class="nav-container-1">
-        <span class="material-symbols-outlined menu-ion">
+        <span class="material-symbols-outlined menu-ion" onclick="togglemenu()">
           menu
           </span>
-        <ul>
+        <ul id="menuList">
           <li>Collections</li>
           <li>Most popular</li>
         </ul>
@@ -91,5 +91,19 @@
         </article>
       </section>
     </main>
+    <script>
+      var menuList = document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";
+
+function togglemenu() {
+
+    if(menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "190px"
+    } else{
+        menuList.style.maxHeight = "0px"
+    }
+}
+    </script>
   </body>
 </html>
