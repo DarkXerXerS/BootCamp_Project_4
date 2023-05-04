@@ -32,6 +32,10 @@ body {
   padding: 30px 0px;
 }
 
+/* .material-symbols-outlined {
+  display: none;
+} */
+
 .nav-container-1 ul {
   display: flex;
   list-style: none;
@@ -234,5 +238,25 @@ body {
     gap: 10px;
   }
 
-  .nav-container-1 ul  
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 40
+}
+.nav-container-1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* padding: 20px; */
+  border: 2px solid red;
+  /* width: 200px; */
+}
+
+
+
+
+
+
 }
