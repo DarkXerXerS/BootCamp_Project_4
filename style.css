@@ -310,13 +310,14 @@ z-index: -1;
   /* transition: 0.8s; */
 }
 
-/* .section-container-2 h1 {
-  z-index: -1;
-} */
-
-.main-container {
-  /* margin-top: 90px; */
+.nav-container-2 h2 {
+  font-size: 17px;
+  letter-spacing: 4px;
+  /* border: 2px solid red; */
+  margin-top: 15px;
 }
+
+
 
 
 
