@@ -200,6 +200,6 @@ body {
   opacity: 0.7;
 }
 
-@media only screen and (max-width: 480p) {
-    
+@mdeia only screen and (min-width: 480px) and (max-width: 820px) {
+  
 }
