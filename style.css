@@ -323,6 +323,14 @@ z-index: -1;
   margin-left: -5px;
 }
 
+.section-container-1 {
+  display: none;
+}
+
+.section-container-3 {
+  display: none;
+}
+
 
 
 
