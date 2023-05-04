@@ -234,9 +234,7 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  * {
-    /* overflow: hidden; */
-  }
+ 
 
   .header_container {
     display: flex;
@@ -249,20 +247,28 @@ body {
   'wght' 300,
   'GRAD' 0,
   'opsz' 40
+  z-index: -1;
 }
+
+.menu-ion {
+z-index: -1;
+}
+
 .nav-container-1 ul {
   display: flex;
   flex-direction: column;
   width: 100%;
   background: linear-gradient(#ff5492, #ff577559);
+  color: #000;
   gap: 20px;
   /* border: 2px solid red; */
   position: absolute;
-  bottom: 425px;
+  bottom: 367px;
   left: 0px;
-  z-index: 2;
+  /* z-index: 2; */
   text-align: center;
-/
+  height: 300px;
+  top: 84px;
 }
 
 .nav-container-1 .menu-ion {
@@ -277,8 +283,12 @@ body {
 } 
 #menuList {
   overflow: hidden;
-  transition: 0.5s;
+  transition: 0.8s;
 }
+
+/* .section-container-2 h1 {
+  z-index: -1;
+} */
 
 
 
