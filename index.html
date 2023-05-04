@@ -10,15 +10,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <header class="header_container">
       <nav class="nav-container-1">
         <span class="material-symbols-outlined menu-ion" onclick="togglemenu()">
           menu
-          </span>
-          <span class="close" id="closeIcon">X</span>
+        </span>
+        <span class="close" id="closeIcon">X</span>
         <ul id="menuList">
           <li>Collections</li>
           <li>Most popular</li>
@@ -29,13 +32,7 @@
         <h2>PenSpace Blog</h2>
       </nav>
 
-      <!-- <nav class="nav-container-3">
-        <ul>
-          <li>My account</li>
-          <li>My cart</li>
-        </ul> -->
-        <span class="material-symbols-outlined"> search </span>
-      </nav>
+      <span class="material-symbols-outlined hambger"> search </span>
     </header>
     <main class="main-container">
       <section class="section-container-1">
@@ -92,28 +89,27 @@
         </article>
       </section>
     </main>
-    <script >
+    <script>
       var menuList = document.getElementById("menuList");
 
-menuList.style.maxHeight = "0px";
+      menuList.style.maxHeight = "0px";
 
-function togglemenu() {
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "190px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
 
-    if(menuList.style.maxHeight == "0px") {
-        menuList.style.maxHeight = "190px"
-    } else{
-        menuList.style.maxHeight = "0px"
-    }
-}
-
-// closeIcon.addEventListener("click", () => {
-//   nav_menu.classList.remove("display");
-// });
-// document.addEventListener("click", (event)) => {
-//   // Check if the clicked element is not inside the menu
-//   if (!menuList.contains(event.target) && !menuList.contains(event.target)) {
-//     menuList.classList.remove("display");
-//   }
+      // closeIcon.addEventListener("click", () => {
+      //   nav_menu.classList.remove("display");
+      // });
+      // document.addEventListener("click", (event)) => {
+      //   // Check if the clicked element is not inside the menu
+      //   if (!menuList.contains(event.target) && !menuList.contains(event.target)) {
+      //     menuList.classList.remove("display");
+      //   }
     </script>
   </body>
 </html>
