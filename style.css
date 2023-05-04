@@ -331,6 +331,23 @@ z-index: -1;
   display: none;
 }
 
+.section-container-2 p  {
+  display: none;
+}
+
+.section-container-2 h1 {
+  display: none;
+}
+
+.section-container-2 img[src] {
+width: 200px;
+height: 400px;
+}
+
+.section-container-2 .blog-post {
+  width: 200px;
+}
+
 
 
 
